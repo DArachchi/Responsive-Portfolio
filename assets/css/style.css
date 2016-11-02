@@ -310,9 +310,12 @@ textarea {
 		width: 640px;
 	}
 
+	header {
+		position: static;
+	}
+
 	nav {
 		background-color: white;
-		border-bottom: #d3d3d3;
 		left: 0px;
 		padding: 15px 0px;
 		text-align: center;
