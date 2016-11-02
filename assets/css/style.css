@@ -157,6 +157,10 @@ p {
 	padding: 9px 20px 20px 20px;
 }
 
+.profileimage {
+	
+}
+
 .projectimage {
 	height: 220px;
 	margin: 20px 20px 20px 0px;
@@ -203,4 +207,130 @@ textarea {
 	margin: 0 auto -4em;
 	min-height: 100%;
 
+}
+
+@media screen and (max-width: 980px) and (min-width: 769px) {
+
+	.connect {
+		left: 570px;
+		margin: 180px 0px 0px 20px;
+		top: -55px;
+		width: 250px;
+	}
+
+	.content {
+		width: 460px;
+	}
+
+	nav {
+		left: 620px;
+	}
+
+	.profileimage {
+		height: 420px;
+		width: 420px;
+	}
+
+	.projectimage {
+		height: 315px;
+		margin: 20px 20px 20px 0px;
+		position: relative;
+		width: 420px;
+	}
+
+	.projecttitle {
+		width: 420px;
+	}	
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 641px) {
+
+	.connect {
+		margin: 180px 0px 0px 20px;
+		position: static;
+		width: 658px;
+	}
+
+	.contact {
+		padding-right: 40px;
+		position: relative;
+	}
+
+	.content {
+		left: 20px;
+		margin-bottom: 0px;
+		width: 698px;
+	}
+
+	h1 {
+		left: 20px;
+		padding: 20px 0px;
+	}
+
+	nav {
+		border-bottom: #d3d3d3;
+		left: 500px;
+	}
+
+	.profileimage {
+		height: 200px;
+		width: 200px;
+	}
+
+	.projectimage {
+		margin: 20px 20px 20px 0px;
+		position: relative;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+
+	.connect {
+		margin: 180px 0px 0px 20px;
+		position: static;
+		width: 530px;
+	}
+
+	.contact {
+		padding-right: 40px;
+		position: relative;
+	}
+
+	.content {
+		left: 20px;
+		margin-bottom: 0px;
+		width: 570px;
+	}
+
+	h1 {
+		left: 0px;
+		padding: 20px 0px;
+		width: 640px;
+	}
+
+	nav {
+		background-color: white;
+		border-bottom: #d3d3d3;
+		left: 0px;
+		padding: 15px 0px;
+		text-align: center;
+		top: 67px;
+		width: 640px;
+	}
+
+	.profileimage {
+		height: 500px;
+		width: 530px;
+	}
+
+	.projectimage {
+		height: 398px;
+		width: 530px;
+	}
+
+	.projecttitle {
+		width: 530px;
+	}
 }
